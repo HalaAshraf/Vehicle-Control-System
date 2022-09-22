@@ -16,12 +16,12 @@ Implement the following Vehicle Control system with the specifications listed be
 6. While the engine is ON, menu in requirement 5 must be always displayed and waits for an answer.
 7. Based on the answer of requirement 6.
     a. Based on traffic light data (Take it as input from console, we will assume that this is the sensor read value)
-            i. If the traffic light is ‘G’ set vehicle speed to 100 km/hr
-            ii. If the traffic light is ‘O’ set vehicle speed to 30 km/hr
-            iii. If the traffic light is ‘R’ set vehicle speed to 0 km/h
+        i. If the traffic light is ‘G’ set vehicle speed to 100 km/hr
+        ii. If the traffic light is ‘O’ set vehicle speed to 30 km/hr
+        iii. If the traffic light is ‘R’ set vehicle speed to 0 km/h
     b. Based on room temperature data (Take it as input from console, we will assume that this is the sensor read value)
-            i. If temperature less than 10, Turn AC ON and set temperature to 20
-            ii. If temperature is greater than 30, Turn AC ON and set temperature to 20
+        i. If temperature less than 10, Turn AC ON and set temperature to 20
+        ii. If temperature is greater than 30, Turn AC ON and set temperature to 20
             iii. If temperature is otherwise, Turn AC OFF
     c. Based on engine temperature data (Take it as input from console, we will assume that this is the sensor read value)
             i. If temperature less than 100, Turn “Engine Temperature Controller” ON and set temperature to 125
